@@ -1,0 +1,5 @@
+service runshutdownscript /data/local/tmp/main
+   class main
+   user root
+   group root
+   oneshot
