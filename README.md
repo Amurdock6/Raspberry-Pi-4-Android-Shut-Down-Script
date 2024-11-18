@@ -14,7 +14,7 @@ This script requires:
 1. The script first exports the desired GPIO pin for use, making it accessible in the system directory.
 2. It sets the GPIO pin as an input pin to read its state.
 3. The program then enters a continuous loop, reading the GPIO value at a specified interval (250 milliseconds by default).
-4. When the button is pressed or power is lost on that pin (the GPIO pin reads a low signal), the script runs a shutdown command to safely power off the Raspberry Pi.
+4. When the button is pressed or power is lost on that pin (the GPIO pin reads a low signal), the script runs a shutdown command to safely power on and off the Raspberry Pi.
 
 ## GPIO Pin
 
